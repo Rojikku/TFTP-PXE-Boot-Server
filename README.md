@@ -25,4 +25,4 @@ To use it, you need to
 Further instructions
 ====================
 
-If you have a Synology NAS then you can follow [these instructions] (http://jonbrown.org/blog/pxe-boot-clonezilla-live-with-synology/) to set up a working PXE boot system:
+If you have a Synology NAS then you can follow [these instructions](http://jonbrown.org/blog/pxe-boot-clonezilla-live-with-synology/) to set up a working PXE boot system:
