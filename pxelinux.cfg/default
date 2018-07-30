@@ -27,6 +27,11 @@ LABEL Fedora-28-Server-x64
 	KERNEL images/fedora/28-server/vmlinuz
 	APPEND initrd=images/fedora/28-server/initrd.img inst.stage2=http://download.fedoraproject.org/pub/fedora/linux/releases/28/Server/x86_64/os/ ip=dhcp
 
+LABEL Fedora-28-Workstation-x64
+	MENU LABEL Install Fedora 28 Workstation x64 with Repo
+	KERNEL images/fedora/28-workstation/vmlinuz
+	APPEND initrd=images/fedora/28-workstation/initrd.img inst.stage2=http://download.fedoraproject.org/pub/fedora/linux/releases/28/Workstation/x86_64/os/ ip=dhcp
+
 LABEL Debian-9.5.0-Netinstall
 	MENU LABEL Install Debian 9.5.0
 	KERNEL images/debian/9.5.0/linux
