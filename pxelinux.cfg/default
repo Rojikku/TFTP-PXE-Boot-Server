@@ -47,9 +47,9 @@ label Kali-Live-2018.2
 	MENU LABEL Run Kali Live 2018.2
 	KERNEL images/kali/2018.2/vmlinuz
 	INITRD images/kali/2018.2/initrd.img
-	APPEND boot=live components fetch=tftp://192.168.1.34/images/kali/2018.2/filesystem.squashfs
+	APPEND boot=live components fetch=tftp://$serverIP/images/kali/2018.2/filesystem.squashfs
 
 label Clonezilla-live
 	MENU LABEL Clonezilla Live (Ramdisk)
 	KERNEL images/clonezilla/vmlinuz
-	APPEND initrd=images/clonezilla/initrd.img boot=live config noswap nolocales edd=on nomodeset ocs_live_run="ocs-live-general" ocs_live_extra_param="" keyboard-layouts="" ocs_live_batch="no" locales="" vga=788 nosplash noprompt fetch=tftp://192.168.1.34/images/clonezilla/filesystem.squashfs
+	APPEND initrd=images/clonezilla/initrd.img boot=live config noswap nolocales edd=on nomodeset ocs_live_run="ocs-live-general" ocs_live_extra_param="" keyboard-layouts="" ocs_live_batch="no" locales="" vga=788 nosplash noprompt fetch=tftp://$serverip/images/clonezilla/filesystem.squashfs
