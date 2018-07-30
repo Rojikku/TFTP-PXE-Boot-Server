@@ -5,10 +5,12 @@ This project contains the basic files and folder setup needed for a TFTP PXELINU
 
 It currently has support for network (PXE) installing:
 
-* Centos 6.x
-* Centos 7.0
-* Fedora 24
-* Ubuntu 16.04 (Xenial)
+* Centos 7.5
+* Fedora 28
+* Debian 9.5.0
+* Ubuntu 18.04.1
+* SliTaz Linux
+* Kali Linux 2018.2
 
 To use it, you need to
 
@@ -23,4 +25,4 @@ To use it, you need to
 Further instructions
 ====================
 
-If you have a Synology NAS then you can follow [these instructions](http://www.pyrosoft.co.uk/blog/2013/01/13/setting-up-a-pxe-boot-server-on-synology-dsm-4-2-beta/) to set up a working PXE boot system:
+If you have a Synology NAS then you can follow [these instructions] (http://jonbrown.org/blog/pxe-boot-clonezilla-live-with-synology/) to set up a working PXE boot system:
