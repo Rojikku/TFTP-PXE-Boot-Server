@@ -18,7 +18,7 @@ LABEL CentOS-7-Repo
 	APPEND initrd=images/centos/7.5/initrd.img method=http://mirror.centos.org/centos/7.5.1804/os/x86_64/ devfs=nomount ip=dhcp
 
 LABEL CentOS-7-Repo-VNC
-	MENU Install CentOS 7.5 x64 with Repo and VNC
+	MENU LABEL Install CentOS 7.5 x64 with Repo and VNC
 	KERNEL images/centos/7.5/vmlinuz
 	APPEND initrd=images/centos/7.5/initrd.img method=http://mirror.centos.org/centos/7.5.1804/os/x86_64/ devfs=nomount ip=dhcp devfs=nomount inst.vnc inst.vncpassword=password
 
