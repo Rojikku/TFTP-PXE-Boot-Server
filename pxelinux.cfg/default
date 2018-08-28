@@ -39,8 +39,8 @@ LABEL Debian-9.5.0-Netinstall
 
 label Ubuntu-18.04.1-Netinstall
 	MENU LABEL Install Ubuntu 18.04.1
-	KERNEL images/ubuntu-live/linux
-	APPEND initrd=images/ubuntu-live/initrd.gz
+	KERNEL images/ubuntu/18.04.1/linux
+	APPEND initrd=images/ubuntu/18.04.1/initrd.gz
 
 LABEL Slitaz-Linux
 	MENU LABEL Run Slitaz Linux
